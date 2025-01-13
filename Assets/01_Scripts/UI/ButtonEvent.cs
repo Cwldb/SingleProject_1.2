@@ -7,7 +7,7 @@ public class ButtonEvent : MonoBehaviour
 {
     public void StartBtn()
     {
-        SceneManager.LoadScene("GameScene");
+        SceneManager.LoadScene("InGameScene");
     }
 
     public void SettingBtn()
