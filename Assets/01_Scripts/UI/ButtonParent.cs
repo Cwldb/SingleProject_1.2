@@ -19,7 +19,7 @@ public class ButtonParent : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
 
     public void OnPointerEnter(PointerEventData eventData)
     {
-        _text.color = Color.red;
+        //_text.gameObject.transform.localRotation = 
         _text.gameObject.transform.localScale = new Vector3(1.1f,1.1f,1.1f);
     }
 
